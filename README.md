@@ -6,10 +6,8 @@ Dynamic programming is a problem-solving technique that involves breaking down a
 	<h3>- Optimal substructure and overlapping subproblems are two important concepts in dynamic programming:</h3>
 		1) Optimal substructure: </br>
     breaking down the problem into smaller subproblems, solving each subproblem independently, and then combining the solutions to obtain the overall optimal solution.</br>
-		2) Overlapping subproblems: refer to the property of a problem where the same subproblems appear multiple times in the computation of the overall solution. 
-		   dynamic programming can be used to avoid redundant computations by storing the results of each subproblem in a table or array. By doing so, the algorithm can avoid recomputing the same subproblem multiple times and improve the efficiency of the overall 			   computation.
-		   
-	- Combinatorial problems and optimization problems are two types of problems that can be solved using dynamic programming.
+		2) Overlapping subproblems: refer to the property of a problem where the same subproblems appear multiple times in the computation of the overall solution. dynamic programming can be used to avoid redundant computations by storing the results of each subproblem in a table or array. By doing so, the algorithm can avoid recomputing the same subproblem multiple times and improve the efficiency of the overall computation.
+		  <h3>	- Combinatorial problems and optimization problems are two types of problems that can be solved using dynamic programming.</h3>
 	
 		1) Combinatorial problems involve counting the number of ways to arrange or select objects from a set according to certain rules 			   or constraints. (Asking the question How many?)
 			Example: How many ways to traverse a graph?
