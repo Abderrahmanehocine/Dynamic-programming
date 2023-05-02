@@ -9,12 +9,12 @@ Dynamic programming is a problem-solving technique that involves breaking down a
 		2) Overlapping subproblems: </br>
 refer to the property of a problem where the same subproblems appear multiple times in the computation of the overall solution. dynamic programming can be used to avoid redundant computations by storing the results of each subproblem in a table or array. By doing so, the algorithm can avoid recomputing the same subproblem multiple times and improve the efficiency of the overall computation.
 		  <h3>	- Combinatorial problems and optimization problems are two types of problems that can be solved using dynamic programming:</h3>
-	 	1) Combinatorial problems involve counting the number of ways to arrange or select objects from a set according to certain rules 			   or constraints. (Asking the question How many?)
-			Example: How many ways to traverse a graph?
+	 	1) Combinatorial problems involve counting the number of ways to arrange or select objects from a set according to certain rules 			   or constraints. (Asking the question How many?)</br>
+			Example: How many ways to traverse a graph?</br>
 				 How many staps needed to get from point A to point B?</br>
 		2) Optimization problems involve finding the best solution to a problem among a set of possible solutions. 
-		   (Asking the question What is the minimum?)
-		   	Example: What is the minimum number of steps needed to get from point A to point B?
+		   (Asking the question What is the minimum?)</br>
+		   	Example: What is the minimum number of steps needed to get from point A to point B?</br>
 		   		  What is the minimum cost to travel from Algeria to Canada?</br>
 	<h3>- Memoization and tabulation are two techniques used in dynamic programming to store the results of subproblems to avoid redundant computation:</h3>
 	 	1) Memoization involves storing the results of already solved subproblems in a cache or memory, and retrieving them when the same subproblem is encountered again.
