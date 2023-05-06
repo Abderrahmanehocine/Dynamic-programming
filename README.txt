@@ -62,7 +62,8 @@
 					int climbing_stairs(int *stairs, int num){
    						 if(stairs[num] != 0 )
       						 	return stairs[num];
-    						stairs[num] = climbing_stairs(stairs, num-1) + climbing_stairs(stairs, num-2);
+    						stairs[num] = climbing_stairs(stairs, num-1) + 
+							      climbing_stairs(stairs, num-2);
    						return stairs[num];
 					}
 					
